@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,lit=false": { "model": "makeitwarmer:block/welded_burzhuyka" },
+    "facing=east,lit=false": { "model": "makeitwarmer:block/welded_burzhuyka", "y": 90 },
+    "facing=south,lit=false": { "model": "makeitwarmer:block/welded_burzhuyka", "y": 180 },
+    "facing=west,lit=false": { "model": "makeitwarmer:block/welded_burzhuyka", "y": 270 },
+    "facing=north,lit=true": { "model": "makeitwarmer:block/welded_burzhuyka_lit" },
+    "facing=east,lit=true": { "model": "makeitwarmer:block/welded_burzhuyka_lit", "y": 90 },
+    "facing=south,lit=true": { "model": "makeitwarmer:block/welded_burzhuyka_lit", "y": 180 },
+    "facing=west,lit=true": { "model": "makeitwarmer:block/welded_burzhuyka_lit", "y": 270 }
+  }
+}

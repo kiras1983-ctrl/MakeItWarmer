@@ -1,0 +1,51 @@
+{
+  "credit": "Make It Warmer! - Gas Cylinder Burzhuyka",
+  "textures": {
+    "tex": "makeitwarmer:block/cylinder_burzhuyka_lit",
+    "pipe": "makeitwarmer:block/welded_burzhuyka",
+    "particle": "makeitwarmer:block/cylinder_burzhuyka"
+  },
+  "elements": [
+    {
+      "name": "legs",
+      "from": [3, 0, 3],
+      "to": [13, 2, 13],
+      "faces": {
+        "north": {"uv": [3, 14, 13, 16], "texture": "#pipe"},
+        "east": {"uv": [3, 14, 13, 16], "texture": "#pipe"},
+        "south": {"uv": [3, 14, 13, 16], "texture": "#pipe"},
+        "west": {"uv": [3, 14, 13, 16], "texture": "#pipe"}
+      }
+    },
+    {
+      "name": "cylinder_body",
+      "from": [3, 2, 3],
+      "to": [13, 13, 13],
+      "faces": {
+        "north": {"uv": [3, 3, 13, 14], "texture": "#tex"},
+        "east": {"uv": [3, 3, 13, 14], "texture": "#tex"},
+        "south": {"uv": [3, 3, 13, 14], "texture": "#tex"},
+        "west": {"uv": [3, 3, 13, 14], "texture": "#tex"},
+        "up": {"uv": [3, 3, 13, 13], "texture": "#tex"},
+        "down": {"uv": [3, 3, 13, 13], "texture": "#tex"}
+      }
+    },
+    {
+      "name": "chimney",
+      "from": [6.5, 13, 6.5],
+      "to": [9.5, 16, 9.5],
+      "faces": {
+        "north": {"uv": [6, 0, 9, 3], "texture": "#pipe"},
+        "east": {"uv": [6, 0, 9, 3], "texture": "#pipe"},
+        "south": {"uv": [6, 0, 9, 3], "texture": "#pipe"},
+        "west": {"uv": [6, 0, 9, 3], "texture": "#pipe"},
+        "up": {"uv": [6, 0, 9, 3], "texture": "#pipe"}
+      }
+    }
+  ],
+  "display": {
+    "gui": { "rotation": [30, 225, 0], "translation": [0, 0, 0], "scale": [0.625, 0.625, 0.625] },
+    "ground": { "rotation": [0, 0, 0], "translation": [0, 3, 0], "scale": [0.25, 0.25, 0.25] },
+    "fixed": { "rotation": [0, 0, 0], "translation": [0, 0, 0], "scale": [0.5, 0.5, 0.5] }
+  }
+}

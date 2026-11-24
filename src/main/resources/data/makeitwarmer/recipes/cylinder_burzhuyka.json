@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "P": { "item": "makeitwarmer:stovepipe" },
+    "S": { "item": "makeitwarmer:sheet_iron" }
+  },
+  "result": {
+    "item": "makeitwarmer:cylinder_burzhuyka",
+    "count": 1
+  }
+}
