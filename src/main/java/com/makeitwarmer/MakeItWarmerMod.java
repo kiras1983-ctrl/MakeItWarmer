@@ -1,5 +1,5 @@
 package com.makeitwarmer;
-import com.makeitwarmer.block.BurzhuykaBlock;
+
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
@@ -8,6 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,7 @@ public class MakeItWarmerMod {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+    public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, MODID);
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
     public static final RegistryObject<Block> CYLINDER_BURZHUYKA = BLOCKS.register("cylinder_burzhuyka",
@@ -40,6 +42,9 @@ public class MakeItWarmerMod {
                     .sound(SoundType.METAL)
                     .noOcclusion()
                     .lightLevel(state -> state.getValue(BurzhuykaBlock.LIT) ? 14 : 0)));
+
+    public static final RegistryObject<BlockEntityType<BurzhuykaBlockEntity>> BURZHUYKA_BE = BLOCK_ENTITIES.register("burzhuyka",
+            () -> BlockEntityType.Builder.of(BurzhuykaBlockEntity::new, CYLINDER_BURZHUYKA.get(), WELDED_BURZHUYKA.get()).build(null));
 
     public static final RegistryObject<Item> SHEET_IRON = ITEMS.register("sheet_iron",
             () -> new Item(new Item.Properties()));
@@ -69,6 +74,7 @@ public class MakeItWarmerMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         BLOCKS.register(modEventBus);
         ITEMS.register(modEventBus);
+        BLOCK_ENTITIES.register(modEventBus);
         TABS.register(modEventBus);
     }
 }
