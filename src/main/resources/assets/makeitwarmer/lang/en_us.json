@@ -7,4 +7,5 @@
   "message.makeitwarmer.damper.closed": "Damper: Closed",
   "message.makeitwarmer.damper.half": "Damper: Half-open (Normal)",
   "message.makeitwarmer.damper.open": "Damper: Fully Open (Boost)"
+  "container.makeitwarmer.burzhuyka": "Potbelly stove"
 }
