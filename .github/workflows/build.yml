@@ -1,3 +1,4 @@
+yaml
 name: Build Forge Mod JAR
 
 on:
@@ -15,11 +16,12 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: Generate Gradle Wrapper & Build
-        run: |
-          gradle wrapper --gradle-version 8.1.1
-          chmod +x gradlew
-          ./gradlew build
+      - name: Set up Gradle 8.1.1
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.1.1'
+      - name: Build Mod
+        run: gradle build
       - name: Upload Mod JAR
         uses: actions/upload-artifact@v4
         with:
