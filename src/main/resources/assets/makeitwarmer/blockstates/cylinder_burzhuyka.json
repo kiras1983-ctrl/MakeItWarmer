@@ -3,88 +3,88 @@
     "damper=0,facing=north,lit=false": {
       "model": "makeitwarmer:block/cylinder_burzhuyka_d0"
     },
-    "damper=1,facing=north,lit=false": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d1"
-    },
-    "damper=2,facing=north,lit=false": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d2"
-    },
-    "damper=0,facing=north,lit=true": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d0_lit"
-    },
-    "damper=1,facing=north,lit=true": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d1_lit"
-    },
-    "damper=2,facing=north,lit=true": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d2_lit"
-    },
     "damper=0,facing=east,lit=false": {
       "model": "makeitwarmer:block/cylinder_burzhuyka_d0",
-      "y": 90
-    },
-    "damper=1,facing=east,lit=false": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d1",
-      "y": 90
-    },
-    "damper=2,facing=east,lit=false": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d2",
-      "y": 90
-    },
-    "damper=0,facing=east,lit=true": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d0_lit",
-      "y": 90
-    },
-    "damper=1,facing=east,lit=true": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d1_lit",
-      "y": 90
-    },
-    "damper=2,facing=east,lit=true": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d2_lit",
       "y": 90
     },
     "damper=0,facing=south,lit=false": {
       "model": "makeitwarmer:block/cylinder_burzhuyka_d0",
       "y": 180
     },
-    "damper=1,facing=south,lit=false": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d1",
-      "y": 180
-    },
-    "damper=2,facing=south,lit=false": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d2",
-      "y": 180
-    },
-    "damper=0,facing=south,lit=true": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d0_lit",
-      "y": 180
-    },
-    "damper=1,facing=south,lit=true": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d1_lit",
-      "y": 180
-    },
-    "damper=2,facing=south,lit=true": {
-      "model": "makeitwarmer:block/cylinder_burzhuyka_d2_lit",
-      "y": 180
-    },
     "damper=0,facing=west,lit=false": {
       "model": "makeitwarmer:block/cylinder_burzhuyka_d0",
       "y": 270
+    },
+    "damper=1,facing=north,lit=false": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d1"
+    },
+    "damper=1,facing=east,lit=false": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d1",
+      "y": 90
+    },
+    "damper=1,facing=south,lit=false": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d1",
+      "y": 180
     },
     "damper=1,facing=west,lit=false": {
       "model": "makeitwarmer:block/cylinder_burzhuyka_d1",
       "y": 270
     },
+    "damper=2,facing=north,lit=false": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d2"
+    },
+    "damper=2,facing=east,lit=false": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d2",
+      "y": 90
+    },
+    "damper=2,facing=south,lit=false": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d2",
+      "y": 180
+    },
     "damper=2,facing=west,lit=false": {
       "model": "makeitwarmer:block/cylinder_burzhuyka_d2",
       "y": 270
+    },
+    "damper=0,facing=north,lit=true": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d0_lit"
+    },
+    "damper=0,facing=east,lit=true": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d0_lit",
+      "y": 90
+    },
+    "damper=0,facing=south,lit=true": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d0_lit",
+      "y": 180
     },
     "damper=0,facing=west,lit=true": {
       "model": "makeitwarmer:block/cylinder_burzhuyka_d0_lit",
       "y": 270
     },
+    "damper=1,facing=north,lit=true": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d1_lit"
+    },
+    "damper=1,facing=east,lit=true": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d1_lit",
+      "y": 90
+    },
+    "damper=1,facing=south,lit=true": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d1_lit",
+      "y": 180
+    },
     "damper=1,facing=west,lit=true": {
       "model": "makeitwarmer:block/cylinder_burzhuyka_d1_lit",
       "y": 270
+    },
+    "damper=2,facing=north,lit=true": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d2_lit"
+    },
+    "damper=2,facing=east,lit=true": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d2_lit",
+      "y": 90
+    },
+    "damper=2,facing=south,lit=true": {
+      "model": "makeitwarmer:block/cylinder_burzhuyka_d2_lit",
+      "y": 180
     },
     "damper=2,facing=west,lit=true": {
       "model": "makeitwarmer:block/cylinder_burzhuyka_d2_lit",
