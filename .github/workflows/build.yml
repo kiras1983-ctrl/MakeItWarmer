@@ -1,4 +1,4 @@
-/name: Build Forge Mod JAR
+name: Build Forge Mod JAR
 
 on:
   push:
