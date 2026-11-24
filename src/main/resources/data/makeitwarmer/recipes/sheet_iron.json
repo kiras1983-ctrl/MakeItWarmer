@@ -5,7 +5,9 @@
     "II"
   ],
   "key": {
-    "I": { "item": "minecraft:iron_ingot" }
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
   },
   "result": {
     "item": "makeitwarmer:sheet_iron",

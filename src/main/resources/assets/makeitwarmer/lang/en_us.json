@@ -1,7 +1,10 @@
 {
-  "itemGroup.makeitwarmer": "Make It Warmer!",
+  "creativetab.makeitwarmer.main": "Make It Warmer!",
   "item.makeitwarmer.sheet_iron": "Sheet Iron",
   "item.makeitwarmer.stovepipe": "Stovepipe",
   "block.makeitwarmer.cylinder_burzhuyka": "Gas Cylinder Potbelly Stove",
-  "block.makeitwarmer.welded_burzhuyka": "Welded Steel Potbelly Stove"
+  "block.makeitwarmer.welded_burzhuyka": "Welded Steel Potbelly Stove",
+  "message.makeitwarmer.damper.closed": "Damper: Closed",
+  "message.makeitwarmer.damper.half": "Damper: Half-open (Normal)",
+  "message.makeitwarmer.damper.open": "Damper: Fully Open (Boost)"
 }

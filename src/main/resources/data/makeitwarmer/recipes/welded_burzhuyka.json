@@ -6,9 +6,15 @@
     "SSS"
   ],
   "key": {
-    "P": { "item": "makeitwarmer:stovepipe" },
-    "S": { "item": "makeitwarmer:sheet_iron" },
-    "I": { "item": "minecraft:iron_ingot" }
+    "P": {
+      "item": "makeitwarmer:stovepipe"
+    },
+    "S": {
+      "item": "makeitwarmer:sheet_iron"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
   },
   "result": {
     "item": "makeitwarmer:welded_burzhuyka",

@@ -6,8 +6,12 @@
     "SSS"
   ],
   "key": {
-    "P": { "item": "makeitwarmer:stovepipe" },
-    "S": { "item": "makeitwarmer:sheet_iron" }
+    "P": {
+      "item": "makeitwarmer:stovepipe"
+    },
+    "S": {
+      "item": "makeitwarmer:sheet_iron"
+    }
   },
   "result": {
     "item": "makeitwarmer:cylinder_burzhuyka",

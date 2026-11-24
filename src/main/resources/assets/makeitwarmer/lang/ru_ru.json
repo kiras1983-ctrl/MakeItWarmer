@@ -1,7 +1,10 @@
 {
-  "itemGroup.makeitwarmer": "Make It Warmer!",
+  "creativetab.makeitwarmer.main": "Make It Warmer!",
   "item.makeitwarmer.sheet_iron": "Листовое железо",
   "item.makeitwarmer.stovepipe": "Дымоходная труба",
   "block.makeitwarmer.cylinder_burzhuyka": "Буржуйка из газового баллона",
-  "block.makeitwarmer.welded_burzhuyka": "Сварная стальная буржуйка"
+  "block.makeitwarmer.welded_burzhuyka": "Сварная стальная буржуйка",
+  "message.makeitwarmer.damper.closed": "Поддувало: Закрыто",
+  "message.makeitwarmer.damper.half": "Поддувало: Приоткрыто (Норма)",
+  "message.makeitwarmer.damper.open": "Поддувало: Открыто на полную (Форсаж)"
 }
